@@ -24,6 +24,7 @@ sites/default/settings.php
 /sites/*/tmp
 /sites/*/cache
 /robots.txt
+robots.txt
 # Ignore testing related files
 /sites/simpletest
 
