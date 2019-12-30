@@ -23,7 +23,7 @@ sites/default/settings.php
 /sites/*/translations
 /sites/*/tmp
 /sites/*/cache
-
+/robots.txt
 # Ignore testing related files
 /sites/simpletest
 
