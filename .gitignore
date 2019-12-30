@@ -8,6 +8,8 @@
 /sites/development.services.yml
 /sites/default/settings.local.php
 /sites/default/settings.php
+sites/default/settings.php
+
 # Ignore paths that may contain user-generated content
 /sites/*/files
 /sites/*/public
@@ -28,7 +30,7 @@
 # Ignore drupal core (if not versioning drupal sources)
 #/core
 #/modules
-#/vendor
+/vendor
 #/.csslintrc
 #/.editorconfig
 #/.eslintignoreconfig
@@ -139,3 +141,4 @@ websites/simpletest
 
 #ignore logs
 error_log
+INSTALL.txt
