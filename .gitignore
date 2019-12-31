@@ -31,7 +31,7 @@ robots.txt
 # Ignore drupal core (if not versioning drupal sources)
 #/core
 #/modules
-/vendor
+#/vendor
 #/.csslintrc
 #/.editorconfig
 #/.eslintignoreconfig
