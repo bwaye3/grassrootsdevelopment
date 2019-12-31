@@ -752,9 +752,7 @@ $settings['entity_update_backup'] = TRUE;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+
 $databases['default']['default'] = array(
     'database' => 'grassroot_stage',
     'username' => 'grassroot_stage',
@@ -766,3 +764,7 @@ $databases['default']['default'] = array(
     'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_MFmKIXnLPgIC7yDATMT-NCAJ7ugTQEAIoSL3zPSneBuoDyjWFENG9kMFAhq72UzI87EzGrEUzg/sync';
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+    include $app_root . '/' . $site_path . '/settings.local.php';
+}
