@@ -15,16 +15,9 @@
 
 {% set attributes = attributes.addClass('site-branding') %}
 {% block content %}
-  {% if site_logo %}
     <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-branding-logo">
-      {% if setting_logo %}
-         <img class="logo-theme" src="{{ site_logo|replace({'.svg': '.png'}) }}" alt="{{ 'Home'|t }}" />
-         <img class="logo-theme logo-white d-none" src="{{ site_logo|replace({'logo.svg': 'logo-white.png'}) }}" alt="{{ 'Home'|t }}" />
-      {% else %}  
-        <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
-      {% endif %}  
+        <img class="svg-logo" src="{{ base_path ~ directory }}/logo.svg" alt="{{ 'Home'|t }}">
     </a>
-  {% endif %}
   {% if site_name or site_slogan %}
     <div class="site-branding__text">
       {% if site_name %}

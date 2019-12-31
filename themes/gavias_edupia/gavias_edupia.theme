@@ -31,6 +31,7 @@ function gavias_edupia_preprocess_page(&$variables) {
   $variables['preloader'] = theme_get_setting('preloader');
  
   $variables['theme_path'] = $base_url . '/' . $theme_path;
+  $variables['base_path'] = base_path();
   
   //Header setting -----------
   $header = 'header';

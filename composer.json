@@ -30,6 +30,7 @@
         "drupal/core-recommended": "^8.8",
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/ctools": "^3.2",
+        "drupal/devel": "^2.1",
         "drupal/fb_likebox": "^2.1",
         "drupal/features": "^3.8",
         "drupal/field_formatter_class": "^1.1",
