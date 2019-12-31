@@ -16460,3 +16460,500 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 body.path-services .body-page {
   background: #F3F3F6;
 }
+
+.milestone-block.position-icon-top {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 0 0 30px;
+}
+
+.milestone-block.position-icon-top .milestone-icon {
+    color: #7DC22B;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.milestone-block.position-icon-top .milestone-icon .icon {
+    text-align: center;
+    line-height: 56px;
+    color: #7DC22B;
+    font-size: 40px;
+}
+
+.milestone-block.position-icon-top .milestone-right {
+    display: block;
+    text-align: center;
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.milestone-block.position-icon-top .milestone-number {
+    font-size: 100px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #26263e;
+}
+
+@media (max-width: 991.98px) {
+    .milestone-block.position-icon-top .milestone-number {
+        font-size: 60px;
+    }
+}
+
+.milestone-block.position-icon-top .milestone-text {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 220px;
+    margin: 18px auto 0;
+    line-height: 30px;
+}
+
+.milestone-block.position-icon-left {
+    margin-bottom: 20px;
+}
+
+.milestone-block.position-icon-left:before, .milestone-block.position-icon-left:after {
+    content: " ";
+    display: table;
+}
+
+.milestone-block.position-icon-left:after {
+    clear: both;
+}
+
+.milestone-block.position-icon-left .milestone-icon {
+    color: #7DC22B;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    margin: 0;
+    width: 68px;
+    height: 68px;
+    margin-top: 8px;
+    display: inline-block;
+    float: left;
+    margin-right: 4px;
+}
+
+.milestone-block.position-icon-left .milestone-icon span {
+    color: #7DC22B;
+    font-size: 38px;
+    line-height: 1;
+}
+
+.milestone-block.position-icon-left .milestone-right {
+    padding-left: 85px;
+    text-align: left;
+}
+
+.milestone-block.position-icon-left .milestone-right .milestone-number {
+    color: #26263e;
+    text-align: left;
+    font-size: 50px;
+    line-height: 1;
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.milestone-block.position-icon-left .milestone-right .milestone-text {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 500;
+    width: 100%;
+    color: #26263e;
+}
+
+.milestone-block.position-without-icon {
+    text-align: center;
+    padding: 60px 15px;
+}
+
+.milestone-block.position-without-icon .milestone-content {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.milestone-block.position-without-icon .milestone-number, .milestone-block.position-without-icon .symbol {
+    font-size: 100px;
+    line-height: 100px;
+    color: #7DC22B;
+    font-weight: 300;
+}
+
+@media (max-width: 991.98px) {
+    .milestone-block.position-without-icon .milestone-number, .milestone-block.position-without-icon .symbol {
+        font-size: 60px;
+        line-height: 69px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .milestone-block.position-without-icon .milestone-number, .milestone-block.position-without-icon .symbol {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+.milestone-block.position-without-icon .milestone-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.milestone-block.text-light .milestone-number {
+    color: #fff !important;
+}
+
+.milestone-block.text-light .milestone-text {
+    color: #b8b8d3 !important;
+}
+
+.milestone-block.text-light .milestone-icon span {
+    border-color: #fff;
+    color: #fff;
+}
+
+.milestone-block.hightlight {
+    background: #fff;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 60px 15px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.gsc-content-images-parallax {
+    float: left;
+    width: 100%;
+}
+
+.gsc-content-images-parallax:before, .gsc-content-images-parallax:after {
+    content: " ";
+    display: table;
+}
+
+.gsc-content-images-parallax:after {
+    clear: both;
+}
+
+.gsc-content-images-parallax .images {
+    width: 40%;
+    position: relative;
+}
+
+@media (max-width: 767.98px) {
+    .gsc-content-images-parallax .images {
+        width: 100%;
+        float: left;
+    }
+}
+
+.gsc-content-images-parallax .images img {
+    border: 2px solid #fff;
+}
+
+.gsc-content-images-parallax .images .image-1 {
+    -webkit-box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.2);
+}
+
+.gsc-content-images-parallax .images .image-2 {
+    max-width: 50%;
+    -webkit-box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 10px 45px rgba(0, 0, 0, 0.15);
+}
+
+.gsc-content-images-parallax .content {
+    width: 60%;
+}
+
+@media (max-width: 767.98px) {
+    .gsc-content-images-parallax .content {
+        width: 100%;
+        float: left;
+    }
+}
+
+.gsc-content-images-parallax .action {
+    margin-top: 15px;
+}
+
+.gsc-content-images-parallax.left .images {
+    float: right;
+}
+
+.gsc-content-images-parallax.left .content {
+    float: left;
+    padding-right: 30px;
+}
+
+@media (max-width: 767.98px) {
+    .gsc-content-images-parallax.left .content {
+        padding-right: 0;
+    }
+}
+
+.gsc-content-images-parallax.right .images {
+    float: left;
+}
+
+.gsc-content-images-parallax.right .content {
+    float: right;
+    padding-left: 30px;
+}
+
+@media (max-width: 767.98px) {
+    .gsc-content-images-parallax.right .content {
+        padding-left: 0;
+    }
+}
+
+.gsc-content-images-parallax.style-v1 {
+    margin-bottom: 60px;
+}
+
+.gsc-content-images-parallax.style-v1 .images {
+    position: relative;
+    text-align: center;
+}
+
+@media (max-width: 767.98px) {
+    .gsc-content-images-parallax.style-v1 .images {
+        max-width: 550px;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+.gsc-content-images-parallax.style-v1 .content {
+    text-align: center;
+    padding-top: 30px;
+}
+
+@media (max-width: 991.98px) {
+    .gsc-content-images-parallax.style-v1 .content {
+        padding-top: 20px;
+    }
+}
+
+.gsc-content-images-parallax.style-v1 .content .content-inner {
+    display: inline-block;
+    max-width: 480px;
+    text-align: left;
+}
+
+.gsc-content-images-parallax.style-v1 .content .description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gsc-content-images-parallax.style-v1 .content .sub-title span {
+    text-transform: capitalize;
+    background: #7DC22B;
+    font-size: 11px;
+    padding: 4px 10px;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+.gsc-content-images-parallax.style-v1 .content .title {
+    font-size: 23px;
+    position: relative;
+    line-height: 42px;
+    margin: 5px 0;
+    color: #26263e;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.gsc-content-images-parallax.style-v1 .content .title span {
+    position: relative;
+    z-index: 9;
+}
+
+.gsc-content-images-parallax.style-v1.right .image-1 {
+    position: relative;
+    left: 30px;
+    z-index: 1;
+}
+
+@media (max-width: 575.98px) {
+    .gsc-content-images-parallax.style-v1.right .image-1 {
+        left: 0;
+    }
+}
+
+.gsc-content-images-parallax.style-v1.right .image-2 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    z-index: 9;
+}
+
+@media (max-width: 767.98px) {
+    .gsc-content-images-parallax.style-v1.right .image-2 {
+        top: -30px !important;
+    }
+}
+
+.gsc-content-images-parallax.style-v1.left .image-1 {
+    position: relative;
+    right: 30px;
+    z-index: 1;
+}
+
+@media (max-width: 575.98px) {
+    .gsc-content-images-parallax.style-v1.left .image-1 {
+        right: 0;
+    }
+}
+
+.gsc-content-images-parallax.style-v1.left .image-2 {
+    position: absolute;
+    bottom: 150px;
+    right: 0;
+    z-index: 9;
+}
+
+@media (max-width: 767.98px) {
+    .gsc-content-images-parallax.style-v1.left .image-2 {
+        top: -30px !important;
+    }
+}
+
+.gsc-content-images-parallax.style-v2 {
+    margin-bottom: 30px;
+}
+
+.gsc-content-images-parallax.style-v2 .images {
+    position: relative;
+    width: 52%;
+}
+
+.gsc-content-images-parallax.style-v2 .images img {
+    border: none;
+}
+
+@media (max-width: 575.98px) {
+    .gsc-content-images-parallax.style-v2 .images {
+        width: 100%;
+    }
+}
+
+.gsc-content-images-parallax.style-v2 .content {
+    text-align: center;
+    padding-top: 80px;
+    width: 48%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media (max-width: 575.98px) {
+    .gsc-content-images-parallax.style-v2 .content {
+        width: 100%;
+    }
+}
+
+.gsc-content-images-parallax.style-v2 .content .content-inner {
+    display: inline-block;
+    max-width: 480px;
+    text-align: left;
+}
+
+.gsc-content-images-parallax.style-v2 .content .description {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gsc-content-images-parallax.style-v2 .content .sub-title span {
+    text-transform: capitalize;
+    background: #7DC22B;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 5px;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+
+.gsc-content-images-parallax.style-v2 .content .title {
+    font-size: 18px;
+    position: relative;
+    color: #26263e;
+    line-height: 1.3;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.gsc-content-images-parallax.style-v2 .content .title span {
+    position: relative;
+    z-index: 9;
+}
+
+.gsc-content-images-parallax.style-v2 .action a {
+    font-size: 12px;
+}
+
+.gsc-content-images-parallax.style-v2 .action a i {
+    position: relative;
+    top: 1px;
+}
+
+.gsc-content-images-parallax.style-v2.right {
+    padding-bottom: 60px;
+}
+
+@media (max-width: 575.98px) {
+    .gsc-content-images-parallax.style-v2.right {
+        padding-bottom: 0;
+    }
+}
+
+.gsc-content-images-parallax.style-v2.right .image-1 {
+    position: relative;
+    left: 0;
+    top: 85px;
+    z-index: 1;
+    width: 50%;
+}
+
+.gsc-content-images-parallax.style-v2.right .image-2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 9;
+    width: 50%;
+}
+
+.gsc-content-images-parallax.style-v2.left {
+    padding-top: 60px;
+}
+
+@media (max-width: 575.98px) {
+    .gsc-content-images-parallax.style-v2.left {
+        padding-top: 0;
+    }
+}
+
+.gsc-content-images-parallax.style-v2.left .image-1 {
+    position: relative;
+    left: 0;
+    z-index: 1;
+    width: 50%;
+}
+
+.gsc-content-images-parallax.style-v2.left .image-2 {
+    position: absolute;
+    top: 85px;
+    left: 50%;
+    width: 50%;
+    z-index: 9;
+}
