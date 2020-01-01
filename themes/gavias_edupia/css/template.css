@@ -655,7 +655,7 @@ header .block {
     color: #fff;
     width: 34px;
     height: 34px;
-    background: #8EC44D;
+    background: transparent;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
