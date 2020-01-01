@@ -278,6 +278,11 @@ a.disable {
     position: relative;
 }
 
+.hide {
+    left: -9999px !important;
+    height: 0 !important;
+}
+
 @media (max-width: 991.98px) {
     .breadcrumb-content-inner .gva-breadcrumb-content .gva-block-breadcrumb .breadcrumb-style {
         padding: 48px 0;
